@@ -1,0 +1,17 @@
+{
+  "name": "vezba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy-open": "cypress open",
+    "cy-run": "cypress run --headed --browser chrome --spec cypress/e2e/1-getting-started/todo.cy.js --no-exit",
+    "sauce-demo": "cypress run --headed --browser chrome --spec cypress/e2e/sauce-demo.cy.js --no-exit",
+    "sauce-demo-2": "cypress run --headed --browser chrome --spec cypress/e2e/sauce-demo-2.cy.js --no-exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.10.0"
+  }
+}
